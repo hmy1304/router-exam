@@ -1,0 +1,37 @@
+.home-slide {
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.home-slide .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-slide .swiper-slide .slide-inner {
+    max-width: max-content;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 2rem;
+    transition: all .7s;
+    transform: translateY(40rem);
+    opacity: 0;
+}
+
+.home-slide .swiper-slide.swiper-slide-active .slide-inner {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.home-slide .swiper-slide .slide-inner h4 {
+    font-size: 3.2rem;
+}
+
+.home-slide .swiper-slide .slide-inner p {
+    font-size: 1.6rem;
+}
+
