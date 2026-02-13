@@ -1,0 +1,24 @@
+.todolistitem {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.todolistitem .detail {
+    flex: 1;
+    font-size: 2rem;
+}
+
+.todolistitem button {
+    height: max-content;
+    padding: 1rem;
+    border: none;
+    background: rgb(191, 239, 255);
+    cursor: pointer;
+}
+
+.todolistitem button:hover {
+    background: rgb(94, 155, 175);
+}

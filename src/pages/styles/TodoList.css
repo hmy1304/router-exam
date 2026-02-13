@@ -1,0 +1,38 @@
+.todolist {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.todolist .inner {
+    max-width: 80%;
+}
+
+.todolist .inner .search-wrap {
+    display: flex;
+    margin-bottom: 10rem;
+}
+
+.todolist .inner .search-wrap input {
+    flex: 1;
+    padding: 1rem 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.todolist .inner .search-wrap button {
+    padding: 0 2rem;
+    border: none;
+    background: rgb(191, 239, 255);
+    cursor: pointer;
+}
+
+.todolist .inner .search-wrap button:hover {
+    background: rgb(94, 155, 175);
+}
+
+.todolist .inner .list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+

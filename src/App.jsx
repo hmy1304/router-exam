@@ -9,6 +9,9 @@ import Board from './pages/Board'
 import BoardDetail from './pages/BoardDetail'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import TodoList from './pages/TodoList'
+
+
 
 function App() {
 
@@ -17,6 +20,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/todolist' element={<TodoList/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/about/:id' element={<AboutDetail/>}/>
         <Route path='/company' element={<Company/>}/>

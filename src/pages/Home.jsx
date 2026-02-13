@@ -13,7 +13,7 @@ const Home = () => {
     <section className='home'>
       <div className="inner">
         <h2>home</h2>
-        Home
+
 
         <Swiper 
         navigation={true} 
